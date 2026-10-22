@@ -93,3 +93,7 @@ content/customers/data/dump/*.sql
 
 # Generated INSERT scripts (~415 MB). Only the compressed data/sql/coffee_coop_sql.zip is versioned
 data/sql/*.sql
+
+# Coffee Coop - generated data
+content/coffee-coop/data/sql/*.sql
+content/coffee-coop/data/sql/coffee_coop_sql/
