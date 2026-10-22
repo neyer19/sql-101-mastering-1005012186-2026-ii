@@ -14,8 +14,8 @@ CREATE USER cc_admin WITH PASSWORD '*';
 --       or remove LC_COLLATE / LC_CTYPE to use the server default.
 CREATE DATABASE coffee_coop_db WITH
     ENCODING='UTF8'
-    LC_COLLATE='Spanish_Colombia.1252'
-    LC_CTYPE='Spanish_Colombia.1252'
+    LC_COLLATE='es_CO.UTF-8'
+    LC_CTYPE='es_CO.UTF-8'
     TEMPLATE=template0
     OWNER = cc_admin;
 
